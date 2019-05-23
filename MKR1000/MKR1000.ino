@@ -157,7 +157,7 @@ void listenForEthernetClients() {
             if(writeDB){
               Serial.println("scrivo su DB: ");
               printArray(arr_temperature);
-              updateDBHome("MKR100"); // scrivo medie array per valori in cui è possibile
+              updateDBHome("MKR1000"); // scrivo medie array per valori in cui è possibile
               resetAllArray(); // resetto array storici
               writeDB = false;
             }
