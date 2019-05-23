@@ -10,11 +10,11 @@ int writeMultiToDB(float field1, int field2, int field3, int field4, int field5,
 
   MySQL_Cursor *cur_mem = new MySQL_Cursor(&conn);
 
-  if(field13 == "MKR100error"){
-    sprintf(query, INSERT_DATA, field1, field2, field3, field4, field5, field6, field7, field8, field9, field10, field11, field12, "MKR100error"); 
+  if(field13 == "MKR1000error"){
+    sprintf(query, INSERT_DATA, field1, field2, field3, field4, field5, field6, field7, field8, field9, field10, field11, field12, "MKR1000error"); 
   }
-  if(field13 == "MKR100"){
-    sprintf(query, INSERT_DATA, field1, field2, field3, field4, field5, field6, field7, field8, field9, field10, field11, field12, "MKR100"); 
+  if(field13 == "MKR1000"){
+    sprintf(query, INSERT_DATA, field1, field2, field3, field4, field5, field6, field7, field8, field9, field10, field11, field12, "MKR1000"); 
   }
   if(field13 == "ESP8266error"){
     sprintf(query, INSERT_DATA, field1, field2, field3, field4, field5, field6, field7, field8, field9, field10, field11, field12, "ESP8266error"); 
